@@ -1,0 +1,85 @@
+body{
+  text-align: center;
+  background-color: #084052;
+}
+h1, h2, h3{
+  font-family: "Arial";
+}
+
+input{
+  padding: 10px 60px;
+  margin: 10px 0;
+}
+button{
+  background-color: #084052;
+  padding: 12px;
+  color: white;
+  font-size: 14px;
+  border: green;
+}
+.container{
+  border: 2px #FCEBC0 solid;
+  padding: 10px;
+  margin-top: 10px;
+  word-wrap: break-word;
+}
+.checkeo{
+  border: solid green 1px;
+  margin-left: 10px;
+}
+.tarea{
+  margin-left: 60px;
+  color: #FCEBC0;
+  font-size: 1.6em;
+}
+.eliminar{
+  padding: 5px;
+  font-size: 12px;
+  margin-left: 20px;
+}
+.tachar{
+  text-decoration: line-through;
+  font-weight: normal;
+  margin: 0 60px;
+  color: #FCEBC0;
+  font-size: 1.6em;
+}
+
+/*estilos de back*/
+.back-1, .back-nav{
+  background-color: #084052;
+}
+.back-nav{
+  border: none;
+  margin-top: 15px;
+}
+.navbar-default .navbar-brand{
+  color: #FCEBC0;
+  font-size: 2em;
+  margin-left: 10px;
+}
+.navbar-default .navbar-brand:hover{
+  color: #FCEBC0;
+  font-weight: bold;
+}
+.navbar-default .navbar-brand:visited{
+  color: #FCEBC0;
+  font-weight: light;
+}
+.back-2{
+  background-color: #0B737A;
+}
+h3{
+  color: #FCEBC0;
+  margin: 25px 0;
+}
+.back-3{
+  background-color: #24AC9B;
+}
+h4{
+  color: #FCEBC0;
+  margin: 20px 0;
+}
+.back-4{
+  background-color: #60CCBB;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<title>ORganizApp</title>
+	<script 
+		src="https://code.jquery.com/jquery-1.11.3.min.js" integrity="sha256-7LkWEzqTdpEfELxcZZlS6wAx5Ff13zZ83lYO2/ujj7g=" crossorigin="anonymous">
+	</script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<div class="row back-1">
+		<div class="col-md-12 col-xs-12">
+			<nav class="navbar navbar-default back-nav" role="navigation">
+  				<div class="navbar-header">
+    				<a class="navbar-brand" href="#">OrganizApp</a>
+ 	 			</div>
+ 	 		</nav>
+		</div>
+	</div>
+	<div class="row back-2">
+		<div class="col-md-12 col-xs-12">
+			<h3>BIENVENIDO!</h3>
+		</div>
+	</div>
+	<div class="row back-3">
+		<div class="col-md-12 col-xs-12">
+			<h4><i class="fa fa-pencil" aria-hidden="true"></i> INGRESA TU TAREA: </h4>
+		</div>
+	</div>
+	<div class="row back-4">
+		<div class="col-md-12 col-xs-12">
+			<input type="text" placeholder="Ingresa tu tarea de hoy!" id="ingresoTexto">
+  			<button onclick="agregarTarea()">✔ Agregar</button>
+		</div>
+	</div>
+	
+    
+  
+    <h3>LISTA DE TAREAS</h3>
+  	<div id="tareas">
+  		<div id="lista"></div>
+  	</div>
+  	<script src="js/main.js"></script>
+</body>
+</html>
